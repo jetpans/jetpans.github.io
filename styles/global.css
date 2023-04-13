@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "Lib Sans";
+  src: url("../fonts/LiberationSans-BaDn.ttf") format("truetype");
+}
+
+.wrapper > *::-webkit-scrollbar {
+  width: 5px;
+  background-color: unset;
+}
+
+.wrapper > *::-webkit-scrollbar-track {
+  background: unset;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.wrapper > *::-webkit-scrollbar-thumb {
+  border: 3px solid rgb(58, 58, 58);
+}
+
+* {
+  font-family: "Lib Sans", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  color: rgb(39, 30, 23);
+}
+
+img {
+  background-blend-mode: multiply;
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  background-color: #e4e1e1;
+  padding: 1vmin, 1vmin, 1vmin, 1vmin;
+  padding-top: 0px;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  /* gap: 10px 10px; */
+  grid-template-columns: 11vw auto auto auto auto;
+  grid-template-rows: 11vh 11vh 11vh 11vh 11vh 11vh 11vh auto auto;
+  grid-template-areas:
+    "logo welcome welcome welcome basket"
+    "navigation category category category category"
+    "navigation cards cards cards cards"
+    "navigation cards cards cards cards"
+    "navigation cards cards cards cards"
+    "information cards cards cards cards"
+    "information cards cards cards cards"
+    "blank cards cards cards cards"
+    "blank cards cards cards cards";
+}
+
+.wrapper > * {
+  display: flex;
+  padding: 10px;
+  background-color: whitesmoke;
+}
+
+@media all and (max-width: 1024px) {
+  .wrapper {
+    padding-top: 0px;
+    margin: 0;
+    /* gap: 8px 8px; */
+    grid-template-columns: 17em auto auto;
+    grid-template-rows: 8vh 9vh 11vh 11vh 11vh 11vh 11vh auto auto;
+    grid-template-areas:
+      "logo blank basket"
+      "category category category"
+      "welcome welcome welcome"
+      "welcome welcome welcome"
+      "navigation cards cards"
+      "navigation cards cards"
+      "navigation cards cards"
+      "navigation cards cards"
+      "information cards cards";
+  }
+
+  .wrapper > * {
+    padding: 5px;
+    box-shadow: 0px 0px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .wrapper {
+    grid-template-columns: 11vw auto auto auto 14vw;
+    grid-template-rows: 11vh 11vh 11vh 11vh 11vh 11vh 11vh auto 11vh;
+    grid-template-areas:
+      "logo welcome welcome welcome basket"
+      "navigation category category category category"
+      "navigation cards cards cards cards"
+      "navigation cards cards cards cards"
+      "navigation cards cards cards cards"
+      "information cards cards cards cards"
+      "information cards cards cards cards"
+      "blank cards cards cards cards"
+      "blank cards cards cards cards";
+  }
+}

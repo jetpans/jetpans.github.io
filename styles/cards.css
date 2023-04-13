@@ -1,0 +1,114 @@
+.cards {
+  padding: 10px;
+  grid-area: cards;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: flex-start;
+
+  flex-wrap: wrap;
+  gap: 1em 1em;
+  overflow: auto;
+  background-color: unset;
+}
+
+.item-card {
+  font-weight: bold;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 15%;
+  padding: 5px 5px 5px 5px;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+.card-img-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  padding-bottom: 20px;
+}
+
+.card-img-container > .item-image {
+  max-width: 95%;
+  max-height: 95%;
+  border: 1px groove rgb(77, 61, 47);
+}
+
+.card-title {
+  display: flex;
+  flex-grow: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.cards .general-counter {
+  margin: 0;
+
+  margin-left: 75%;
+  margin-top: 75%;
+  transition: 0.3s ease;
+  scale: 1;
+}
+
+.cards .general-basket {
+  position: absolute;
+  align-self: center;
+  scale: 0;
+  margin-top: 72%;
+  cursor: pointer;
+}
+
+.card-img-container:hover > .general-basket {
+  scale: 0.075;
+  transition: 0.3s ease;
+}
+
+.card-img-container:hover > .item-image {
+  opacity: 0.7;
+}
+
+@media all and (max-width: 1024px) {
+  .item-card {
+    justify-self: space-around;
+    min-width: 45%;
+    padding: 5px;
+    max-height: 50%;
+    min-height: 22rem;
+  }
+  .item-card > .card-title {
+    font-size: 2em;
+  }
+  .cards {
+    justify-content: space-around;
+  }
+
+  .card-img-container {
+    width: 80%;
+    max-width: 90%;
+  }
+
+  .card-img-container > .item-image {
+    max-width: unset;
+    max-height: unset;
+    width: 100%;
+    height: auto;
+  }
+
+  .general-basket,
+  .general-counter .card-img-container:hover > .general-basket {
+    scale: 0.1;
+  }
+
+  .card-img-container:hover > .general-counter {
+    scale: 1.5;
+  }
+}

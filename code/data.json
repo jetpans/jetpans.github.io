@@ -1,0 +1,583 @@
+{
+  "website": "Office",
+  "type": "module",
+  "categories": [
+    {
+      "name": "Fitness oprema",
+      "image": "",
+      "products": [
+        {
+          "id": 10,
+          "name": "Utezi 2KG/1kom",
+          "image": "utezi-2kg.jpg",
+          "amount": 0
+        },
+        {
+          "id": 11,
+          "name": "Dumbell set",
+          "image": "dumbell-20kg.jpg",
+          "amount": 0
+        },
+        {
+          "id": 12,
+          "name": "Utezi 5KG/2kom",
+          "image": "utezi-5kg.jpg",
+          "amount": 0
+        },
+        {
+          "id": 13,
+          "name": "Uže za skakanje plavo",
+          "image": "jump-rope.jpg",
+          "amount": 0
+        },
+        {
+          "id": 14,
+          "name": "Uteg 10kg/1kom",
+          "image": "uteg-10kg.jpg",
+          "amount": 0
+        },
+        {
+          "id": 15,
+          "name": "Mašina za bench",
+          "image": "bench-machine.jpg",
+          "amount": 0
+        },
+        {
+          "id": 16,
+          "name": "Postolje za utege",
+          "image": "uteg-rack.jpg",
+          "amount": 0
+        },
+        {
+          "id": 17,
+          "name": "Uže za skakanje crveno",
+          "image": "jump-rope-red.jpg",
+          "amount": 0
+        },
+        {
+          "id": 18,
+          "name": "Dumbell 25KG/1kom",
+          "image": "dumbell40.jpg",
+          "amount": 0
+        },
+        {
+          "id": 19,
+          "name": "Dumbell 8KG/1kom",
+          "image": "dumbell8.jpg",
+          "amount": 0
+        },
+        {
+          "id": 1010,
+          "name": "Squeezers",
+          "image": "skvizeri.jpg",
+          "amount": 0
+        },
+        {
+          "id": 101,
+          "name": "Uže za snagu 3m",
+          "image": "hard-rope.jpg",
+          "amount": 0
+        },
+        {
+          "id": 102,
+          "name": "Indoor bike",
+          "image": "indoor-bike.jpg",
+          "amount": 0
+        },
+        {
+          "id": 103,
+          "name": "Utezi 2KG/4kom",
+          "image": "utezi-2kg.jpg",
+          "amount": 0
+        },
+        {
+          "id": 104,
+          "name": "Utezi 5KG/8kom",
+          "image": "utezi-5kg.jpg",
+          "amount": 0
+        },
+        {
+          "id": 105,
+          "name": "Uže za snagu 5m",
+          "image": "hard-rope.jpg",
+          "amount": 0
+        }
+      ]
+    },
+    {
+      "name": "Cipele",
+      "image": "",
+      "products": [
+        {
+          "id": 20,
+          "name": "Patike FER crne",
+          "image": "patike-crne-fer.jpg",
+          "amount": 0
+        },
+        {
+          "id": 21,
+          "name": "Kopačke NIKA žute",
+          "image": "kopacke-zute.jpg",
+          "amount": 0
+        },
+        {
+          "id": 22,
+          "name": "Patike NIKA sive",
+          "image": "patike-nika.jpg",
+          "amount": 0
+        },
+        {
+          "id": 23,
+          "name": "Patike UMTRO plave",
+          "image": "patike-umtro-plave.jpg",
+          "amount": 0
+        },
+        {
+          "id": 24,
+          "name": "Patike NIKA CRO-AIR bijele",
+          "image": "patike-croair.jpg",
+          "amount": 0
+        },
+        {
+          "id": 25,
+          "name": "Patike DISISAD žute",
+          "image": "patike-disisad-zute.jpg",
+          "amount": 0
+        },
+        {
+          "id": 26,
+          "name": "Patike DISISAD roze",
+          "image": "patike-roze.jpg",
+          "amount": 0
+        },
+        {
+          "id": 27,
+          "name": "Patike za planinarenje",
+          "image": "planinar-brown.jpg",
+          "amount": 0
+        },
+        {
+          "id": 28,
+          "name": "Patike roze",
+          "image": "patike-roze.jpg",
+          "amount": 0
+        },
+        {
+          "id": 29,
+          "name": "Patike NIKA custom",
+          "image": "patike-custom.jpg",
+          "amount": 0
+        },
+        {
+          "id": 201,
+          "name": "Kopacke UMTRO plave",
+          "image": "kopacke-plave.jpg",
+          "amount": 0
+        }
+      ]
+    },
+    {
+      "name": "Odjeća",
+      "image": "",
+      "products": [
+        {
+          "id": 30,
+          "name": "Bijela zimska jakna",
+          "image": "zimska-bijela.jpg",
+          "amount": 0
+        },
+        {
+          "id": 31,
+          "name": "Crne ženske tajice",
+          "image": "tajice-crne1.jpg",
+          "amount": 0
+        },
+        {
+          "id": 32,
+          "name": "Muške kratke hlače",
+          "image": "muske-kratke.jpg",
+          "amount": 0
+        },
+        {
+          "id": 33,
+          "name": "Bijela šilt kapa",
+          "image": "silt-bijela.jpg",
+          "amount": 0
+        },
+        {
+          "id": 33,
+          "name": "Siva ženska majica",
+          "image": "zenska-siva1.jpg",
+          "amount": 0
+        },
+
+        {
+          "id": 34,
+          "name": "Ženske crne tajice skinny fit",
+          "image": "tajice-crne2.jpg",
+          "amount": 0
+        },
+        {
+          "id": 35,
+          "name": "Rozi sportski grudnjak",
+          "image": "sportski-bra.jpg",
+          "amount": 0
+        },
+        {
+          "id": 36,
+          "name": "Crna ženska majica",
+          "image": "crna-potkosulja.jpg",
+          "amount": 0
+        },
+        {
+          "id": 37,
+          "name": "Crna šilt kapa",
+          "image": "crni-silt.jpg",
+          "amount": 0
+        },
+        {
+          "id": 38,
+          "name": "Moderna muška majica",
+          "image": "modern-shirt.jpg",
+          "amount": 0
+        },
+        {
+          "id": 39,
+          "name": "Plavi sportski komplet za žene",
+          "image": "plavi-komplet.jpg",
+          "amount": 0
+        },
+        {
+          "id": 301,
+          "name": "Crne tajice",
+          "image": "crne-tajice.jpg",
+          "amount": 0
+        },
+        {
+          "id": 302,
+          "name": "Crna ženska majica NIKA",
+          "image": "crna-majica3.jpg",
+          "amount": 0
+        },
+        {
+          "id": 303,
+          "name": "Crna šilt kapa UMTRO",
+          "image": "crni-silt2.jpg",
+          "amount": 0
+        }
+      ]
+    },
+    {
+      "name": "Dodaci",
+      "image": "",
+      "products": [
+        {
+          "id": 40,
+          "name": "Sunčane naočale protiv vjetra Muške",
+          "image": "naocale1.jpg",
+          "amount": 0
+        },
+        {
+          "id": 41,
+          "name": "Sunčane naočale protiv vjetra Ženske",
+          "image": "naocale2.jpg",
+          "amount": 0
+        },
+        {
+          "id": 42,
+          "name": "Kaciga za rugby",
+          "image": "ragbi.jpg",
+          "amount": 0
+        },
+        {
+          "id": 43,
+          "name": "Bijela biciklistička kaciga L",
+          "image": "bijela-kaciga2.jpg",
+          "amount": 0
+        },
+        {
+          "id": 44,
+          "name": "Skijaška kaciga",
+          "image": "ski-kaciga.jpg",
+          "amount": 0
+        },
+        {
+          "id": 45,
+          "name": "Štapovi za hodanje",
+          "image": "stapovi.jpg",
+          "amount": 0
+        },
+        {
+          "id": 46,
+          "name": "Pametni sat PEAR",
+          "image": "smart1.jpg",
+          "amount": 0
+        },
+        {
+          "id": 47,
+          "name": "Pametni sat Windows",
+          "image": "smart2.jpg",
+          "amount": 0
+        },
+        {
+          "id": 48,
+          "name": "Mamac za ribe",
+          "image": "mamac.jpg",
+          "amount": 0
+        },
+        {
+          "id": 49,
+          "name": "Skije veličina L bijele",
+          "image": "skije.jpg",
+          "amount": 0
+        },
+        {
+          "id": 401,
+          "name": "Šator za kampiranje žuti L",
+          "image": "sator.jpg",
+          "amount": 0
+        }
+      ]
+    },
+    {
+      "name": "Prehrana",
+      "image": "",
+      "products": [
+        {
+          "id": 50,
+          "name": "Termosica bijela",
+          "image": "boca1.jpg",
+          "amount": 0
+        },
+        {
+          "id": 51,
+          "name": "WHEAT proteini 5kg",
+          "image": "proteini.jpg",
+          "amount": 0
+        },
+        {
+          "id": 52,
+          "name": "Čokoladica BRO",
+          "image": "chocolate.jpg",
+          "amount": 0
+        },
+        {
+          "id": 53,
+          "name": "Termosica roza",
+          "image": "boca2.jpg",
+          "amount": 0
+        },
+        {
+          "id": 54,
+          "name": "Čokoladica BRO 3 + 1 GRATIS",
+          "image": "chocolate.jpg",
+          "amount": 0
+        }
+      ]
+    },
+    {
+      "name": "Torbe i ruksaci",
+      "image": "",
+      "products": [
+        {
+          "id": 60,
+          "name": "Crvena DISISAD torba",
+          "image": "crvena-torba.jpg",
+          "amount": 0
+        },
+        {
+          "id": 61,
+          "name": "Plava torba UMTRO",
+          "image": "plava-torba.jpg",
+          "amount": 0
+        },
+        {
+          "id": 62,
+          "name": "Mala torba za svaki dan",
+          "image": "lagana-torba.jpg",
+          "amount": 0
+        },
+        {
+          "id": 63,
+          "name": "Crna torba za izlete",
+          "image": "crna-torba.jpg",
+          "amount": 0
+        },
+        {
+          "id": 64,
+          "name": "Velika torba za teretanu",
+          "image": "duffle.jpg",
+          "amount": 0
+        },
+        {
+          "id": 65,
+          "name": "Vreća za spavanja 200x45cm",
+          "image": "vreca.jpg",
+          "amount": 0
+        }
+      ]
+    },
+    {
+      "name": "Yoga i pilates",
+      "image": "",
+      "products": [
+        {
+          "id": 70,
+          "name": "Pilates lopta plava 30cm",
+          "image": "pilates-plava.jpg",
+          "amount": 0
+        },
+        {
+          "id": 71,
+          "name": "Pilates lopta žuta 20cm",
+          "image": "pilates-zuta.jpg",
+          "amount": 0
+        },
+        {
+          "id": 72,
+          "name": "Prostirka za yogu",
+          "image": "joga-mat.jpg",
+          "amount": 0
+        },
+        {
+          "id": 73,
+          "name": "Pilates lopta žuta 40cm",
+          "image": "pilates-zuta.jpg",
+          "amount": 0
+        },
+        {
+          "id": 74,
+          "name": "Pilates lopta plava 50cm",
+          "image": "pilates-plava.jpg",
+          "amount": 0
+        }
+      ]
+    },
+    {
+      "name": "Bicikliranje",
+      "image": "",
+      "products": [
+        {
+          "id": 80,
+          "name": "Bicikl žuti PREK",
+          "image": "zuti-bajk.jpg",
+          "amount": 0
+        },
+        {
+          "id": 81,
+          "name": "Bicikl sportski plavi PREK",
+          "image": "blue-bajk.jpg",
+          "amount": 0
+        },
+        {
+          "id": 82,
+          "name": "Sportski bicikl crni POLICA",
+          "image": "crni-bajk.jpg",
+          "amount": 0
+        },
+        {
+          "id": 83,
+          "name": "Mountain bike PREK",
+          "image": "mountain-bajk.jpg",
+          "amount": 0
+        },
+        {
+          "id": 84,
+          "name": "Bijela biciklistička kaciga M",
+          "image": "bijela-kaciga1.jpg",
+          "amount": 0
+        }
+      ]
+    },
+    {
+      "name": "Sportovi",
+      "image": "",
+      "products": [
+        {
+          "id": 90,
+          "name": "Bijela odbojkaška lopta MISAKA",
+          "image": "bijela-odb.jpg",
+          "amount": 0
+        },
+        {
+          "id": 91,
+          "name": "Teniska loptica 10 kom",
+          "image": "tenis-ball.jpg",
+          "amount": 0
+        },
+        {
+          "id": 92,
+          "name": "Košarkaška lopta L",
+          "image": "basket-ball.jpg",
+          "amount": 0
+        },
+        {
+          "id": 93,
+          "name": "Teniski reket",
+          "image": "reket.jpg",
+          "amount": 0
+        },
+        {
+          "id": 94,
+          "name": "Košarkaška lopta S",
+          "image": "basket-ball-small.jpg",
+          "amount": 0
+        },
+        {
+          "id": 95,
+          "name": "Obruč za košarku",
+          "image": "basket-hoop.jpg",
+          "amount": 0
+        },
+        {
+          "id": 96,
+          "name": "Stol za stolni tenis",
+          "image": "stol-za-stolni.jpg",
+          "amount": 0
+        },
+        {
+          "id": 97,
+          "name": "Nogometna lopta",
+          "image": "soccer-ball.jpg",
+          "amount": 0
+        }
+      ]
+    },
+    {
+      "name": "Za djecu",
+      "image": "",
+      "products": [
+        {
+          "id": 190,
+          "name": "Dres za djecu S",
+          "image": "dres-kids.jpg",
+          "amount": 0
+        },
+        {
+          "id": 191,
+          "name": "Frisbee plavi M",
+          "image": "frizbi.jpg",
+          "amount": 0
+        },
+        {
+          "id": 192,
+          "name": "Vodilica dječja za planinarenje",
+          "image": "vodilica.jpg",
+          "amount": 0
+        },
+        {
+          "id": 193,
+          "name": "Tricikl za djecu",
+          "image": "djecji-bajk.jpg",
+          "amount": 0
+        },
+        {
+          "id": 194,
+          "name": "Boomerang s dizajnom",
+          "image": "bumerang.jpg",
+          "amount": 0
+        }
+      ]
+    }
+  ]
+}

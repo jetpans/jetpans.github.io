@@ -1,0 +1,95 @@
+.category {
+  grid-area: category;
+  justify-content: left;
+  align-items: center;
+  overflow: hidden;
+}
+
+.category > h1 {
+  font-size: 2em;
+}
+
+.logo {
+  box-shadow: 0px 0px;
+  background-color: unset;
+  padding: 0;
+  margin: 0;
+  grid-area: logo;
+  justify-content: center;
+  object-fit: contain;
+}
+
+.welcome {
+  grid-area: welcome;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.welcome > img {
+  position: absolute;
+  align-self: center;
+  justify-self: center;
+  opacity: 0.5;
+  z-index: 0;
+  width: 100%;
+  height: auto;
+}
+
+.welcome > * {
+  z-index: 1;
+  font-size: 6vh;
+  text-align: center;
+  font-weight: bold;
+}
+
+.information {
+  display: block;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  grid-area: information;
+  background-color: unset;
+}
+.navigation {
+  display: block;
+  grid-area: navigation;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-right: 10px;
+  background-color: whitesmoke;
+}
+.navigation > *,
+.information > * {
+  font-size: 1.1rem;
+}
+
+.information > * {
+  width: 80%;
+  text-align: center;
+}
+.nav-element:hover {
+  background-color: #d1d1d1;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-element {
+  margin-bottom: 0.5em;
+}
+
+@media all and (max-width: 1024px) {
+  .navigation > *,
+  .information > * {
+    font-size: 1.5em;
+    padding-top: 10px;
+  }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1919px) {
+  .welcome > * {
+    font-size: 5vh;
+  }
+}
